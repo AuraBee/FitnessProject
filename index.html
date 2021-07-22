@@ -1,70 +1,169 @@
 <html>
     <head>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="css/index.css">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" 
         rel="stylesheet">
      
     </head>
-    <body>
+   
+<body>
+     
+    <header>
+        <a href="#" class="logo">Company</a>
         
-        <header>
-            <a href="#" class="logo">Bee Fitness</a>
-            
-            <svg height="32px" id="menu-btn" class="open" viewBox="0 0 32 32">
-                <path fill="cyan" d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
+        <svg height="32px" id="menu-btn" class="open" viewBox="0 0 32 32">
+            <path fill="white" d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
+        </svg>
+        
+        <nav id="nav">
+            <svg viewBox="0 0 24 24" id="exit-btn" class="exit">
+                <path id="exit" fill="white" d="M14.8,12l3.6-3.6c0.8-0.8,0.8-2,0-2.8c-0.8-0.8-2-0.8-2.8,0L12,9.2L8.4,5.6c-0.8-0.8-2-0.8-2.8,0   c-0.8,0.8-0.8,2,0,2.8L9.2,12l-3.6,3.6c-0.8,0.8-0.8,2,0,2.8C6,18.8,6.5,19,7,19s1-0.2,1.4-0.6l3.6-3.6l3.6,3.6   C16,18.8,16.5,19,17,19s1-0.2,1.4-0.6c0.8-0.8,0.8-2,0-2.8L14.8,12z" />
             </svg>
             
-            <nav id="nav">
-                <svg viewBox="0 0 24 24" id="exit-btn" class="exit">
-                    <path id="exit" fill="cyan" d="M14.8,12l3.6-3.6c0.8-0.8,0.8-2,0-2.8c-0.8-0.8-2-0.8-2.8,0L12,9.2L8.4,5.6c-0.8-0.8-2-0.8-2.8,0   c-0.8,0.8-0.8,2,0,2.8L9.2,12l-3.6,3.6c-0.8,0.8-0.8,2,0,2.8C6,18.8,6.5,19,7,19s1-0.2,1.4-0.6l3.6-3.6l3.6,3.6   C16,18.8,16.5,19,17,19s1-0.2,1.4-0.6c0.8-0.8,0.8-2,0-2.8L14.8,12z" />
-                </svg>
-                
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li class="active"><a href="#">About</a></li>
-                  
-                    
-                     <li><a href="#">Services</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Contact</a></li> 
-                </ul>
-            </nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-
-        <div class="hero">
+    
+        <div class="hero col container">
+            <h1 class="centered">Training PA</h1>
+            
             <div class="carousel">
-                <img src="heroImage.jpg" class="imgResponsive">
+                <img src="img/heroImage.jpg" class="imgResponsive">
+            </div>
+        </div><!--Hero / container ends
+        -->
+
+
+          
+        <!--Services Starts
+        -->
+        <div class="services col container">
+            <div class="serv-grid">
+                <h2>1-on-1 Training</h2>
+                <p>Results based personal training services.</p>
+                <button class="buttons"> <a href="#" class="cta-btn">Lets go</a></button>
+             </div>
+
+
+             <div class="serv-grid">
+                <h2>Nutrition Coach</h2>
+                <p>Eatwell be well - personal nutrition plans and coaching.</p>
+                <button class="buttons">  <a href="#" class="cta-btn">Let's go</a></button>
+            </div>
+    
+
+            <div class="serv-grid">
+                <h2>Online Training</h2>
+                <p>Online strength and conditioning programs for all.</p>
+                <button class="buttons">  <a href="#" class="cta-btn">Let's go</a></button>
+            </div> 
+        </div> <!--.services .container Ends
+        
+        </div> -->
+        
+        
+    <section class="article col container">
+            <!-- <div class="about split">  about Starts -->
+            <div class="col-img col">
+                <img src="img/about.jpg">
             </div>
 
-        </div>
+            <div class="col bio">
+                <h1 class="title"> Bio</h1>
+                <p class="bio">Fully qualified Level 3 personal trainer and Certified Nutrition Coach.
+                    I've been in the Fitness Industry for eight years. I have been on both sides, 
+                    worked on my own challenges and fitness journey with a PT and now
+                    I am fully trained and ready to support and guide on your journey. 
+                    </p>
+
+                    <button class="buttons">
+                        <a href="#" class="cta-btn" > Let's do this!</a></button>
+            </div>
+       </div>
+    </section>
+        <!--about ends-->
 
 
-
-        
-    <div class="main ">
-            <div class="left-col cta-grid-l">
-                <div class="content">
-                    <h1>Fitness in Need? <span></span> </h1>
-                    <p>Fill out the form to receive our award winning newsletter.</p>
+        <div class="testimonials col container">
+          
+                <div class="left-col cta-grid-l">
+                    <div class="content">
+                        <h1><span><q></span></h1>
+                        <p>Thanks Training PA.! not sure I would of achieved my goal of getting 
+                            fit, healthy and happy. Highly recommend, patient and supportive 
+                            throughout
+                    </div>
+                </div>
+    
+            <div class="right-col cta-grid-r">
+                <div class="form content ">
+                    <div class="content-wrapper right-col">
+                        <p>...vastly improved my fitness, nutrition and eating habits,  
+                           very experiencd in excercise and fitness, 10/10</p>
+                          <!--Assisted in improving my fitness, nutrition and eating habits,  
+                          provided personalised and guidance plans along the way,
+                          very experiencd in excercise and fitness, 10/10-->
+                    </div>
+                    
+                    <div class="content-wrapper right-col">
+                        <p>...it really felt like were a team working
+                        towards the same goal, my fitness goals! totally recommend.
+                        Thanks!</p>
+                    </div>
+                         
+                  
                 </div>
             </div>
-
-        <div class="right-col cta-grid-r">
-            <div class="form content ">
-                    <div class="input-wrapper">
-                        <label for="name">Name</label>
-                        <input type="text" id="name">
-                    </div>
-                    <div class="input-wrapper">
-                        <label for="email">Email</label>
-                        <input type="text" id="email">
-                    </div>
-                    <div class="input-wrapper">
-                        <button>Sign me up</button>
-                    </div>
+            <div class="cta-wrapper">
+                <button class="buttons read-more"><a href="#">Read More</a></button>
             </div>
         </div>
+         
+    
     </div>   
+        <div class="footer container">
+        
+                <ul class="footer-grid">
+                <h3>Services</h3>
+                    <li><a href="#">Personal Training</a></li>
+                    <li><a href="#">Online Personal Training</a></li>
+                    <li><a href="#">Corporate Fitness</a></li>
+                    <li><a href="#">Nutrition Fitness</a></li>
+                        </ul>
+                
+                    <ul class="footer-grid">
+                        <h3>Company</h3>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">T's & C's </a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+            
+
+                <ul class="footer-grid">
+                    <h3>Support</h3>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Developer Contact</a></li>
+                </ul>
+        
+
+                <ul class="footer-grid">
+                    <h3>Address</h3>
+                <li>369 Londinium</li>
+                    <li>LN0 C1T</li>
+                    <li>UK</li>
+                </ul>
+        </div>
+           
+    </div>
+    
+    
 
         <script src="index.js"></script>
     </body>
